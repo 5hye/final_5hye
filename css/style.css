@@ -1,0 +1,72 @@
+.circle-container
+{width: 1920px;
+height: 1080px;
+background-color:#d775fc;(7, 2, 2);
+top:0px; left:0px; z-index:-10px; position:absolute;}
+
+.circle
+{width: 280px;
+ height: 280px;
+ border-radius: 50%;
+ background-color:black;
+ position: absolute;
+ z-index: 20px;
+ margin-left: -200px;
+ margin-top: -500px;
+}
+
+ .varr
+ {top:300px; left:1000px; z-index: 20px; position:absolute;}
+
+ .first
+ {top:0px; left:0px; z-index: 10px; position:absolute;height: 750px; width: 1530px;}
+ 
+ .four
+ {top:75px; left:160px; z-index: 20px; position:absolute;height: 600px; width: 1300px; }
+
+ .second
+ {top:50px; left:-5px; z-index: 8px; position:absolute;height:650px; width: 1580px;}
+
+ .small
+ {width: 1920px;
+    height: 1080px;;}
+
+.back
+{top:50px; left:-5px; z-index: 5px; position:absolute;height:650px; width: 1580px;}
+
+
+.blinking{
+	-webkit-animation:blink 3s ease-in-out infinite alternate;
+    -moz-animation:blink 3s ease-in-out infinite alternate;
+    animation:blink 3s ease-in-out infinite alternate;
+}
+@-webkit-keyframes blink{
+    0% {opacity:1;}
+    100% {opacity:0;}
+}
+@-moz-keyframes blink{
+    0% {opacity:1;}
+    100% {opacity:0;}
+}
+@keyframes blink{
+    0% {opacity:1;}
+    100% {opacity:0;}
+}
+
+.blinking4{
+	-webkit-animation:blink 3s ease-in-out infinite alternate;
+    -moz-animation:blink 3s ease-in-out infinite alternate;
+    animation:sra 3s ease-in-out infinite alternate;
+}
+@-webkit-keyframes sra{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-moz-keyframes sra{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@keyframes sra{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
